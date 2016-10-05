@@ -1,0 +1,71 @@
+/*
+    Author: Fate Cabag
+    URL: fatecabag.github.io
+
+    Name: FSA Philippines - Transition
+    URL: http://fsa.mozillaphilippines.org
+    Version: 1.0.0
+*/
+
+/* Font */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,900);
+
+
+/* OVERALL ASPECT */
+body {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 20px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-top: 10px;
+}.centered {
+    text-align: center;
+}
+#content {
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	min-height: 400px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.btn-primary{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #white;
+  background-color: #3BBA99;
+  border-color: #3BBA99;
+  font-weight: bold;
+}
+
+.btn-primary:hover{
+    color: #3BBA99;
+    border-color: #3BBA99;
+    background-color: white;
+}
+.btn-primary:active{
+    color: #3BBA99;
+    border-color: #3BBA99;
+    background-color: white;
+}
+img {
+    width: 80%;
+    height: auto;
+}
